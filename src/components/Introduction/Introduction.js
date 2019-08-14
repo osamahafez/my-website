@@ -6,7 +6,7 @@ import SocialLinks from '../SocialLinks/SocialLinks';
 
 const Introduction = (props) => {
     return (
-        <div className='intro'>
+        <div id='introduction' className='intro'>
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-12 text-center mt-3 mb-5">

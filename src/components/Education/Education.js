@@ -4,7 +4,7 @@ import Collage from '../../images/collage.jpg';
 
 const Education = () => {
     return (
-        <div className="container-fluid bg-light px-5 py-4">
+        <div id='education' className="container-fluid bg-light px-5 py-4">
             <h1 className="text-info text-center mb-3">Education</h1>
             <div className="row align-items-center justify-content-center">
                 <div className="col-md-5">
