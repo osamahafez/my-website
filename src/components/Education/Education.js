@@ -5,7 +5,7 @@ import Collage from '../../images/collage.jpg';
 const Education = () => {
     return (
         <div className="container-fluid bg-light px-5 py-4">
-            <h2 className="text-info text-center mb-3">Education</h2>
+            <h1 className="text-info text-center mb-3">Education</h1>
             <div className="row align-items-center justify-content-center">
                 <div className="col-md-5">
                     <img src={School} alt="school" className='rounded' style={{width: '100%', height: '280px', border:'2px solid purple'}} />
