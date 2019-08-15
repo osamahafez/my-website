@@ -1,7 +1,7 @@
 import React from 'react'
 import './Experience.css';
 
-const Experience = () => {
+const Experience = (props) => {
     return (
         <div>
             <div id='experience' className="experience container-fluid bg-light px-5 py-4">
