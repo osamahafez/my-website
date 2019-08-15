@@ -21,7 +21,7 @@ const Navbar = (props) => {
                             <NavLink smooth className="nav-link text-light" to="/experience#experience">Experience</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink smooth className="nav-link text-light" to="/projects">Projects</NavLink>
+                            <NavLink smooth className="nav-link text-light" to="/projects#projects">Projects</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink smooth className="nav-link text-light" to="/skills">Skills</NavLink>
