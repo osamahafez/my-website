@@ -1,0 +1,23 @@
+.activites {
+    border-top: 2px dashed black;
+}
+
+.activity-slide {
+    width: 70%;
+}
+
+.cap-background {
+    background-color: rgba(173, 173, 173, 0.781);
+    width: 25%;
+    margin: auto;
+}
+
+.activity-desc {
+    width: 70%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.activity-desc p {
+    font-size: 18px;
+}
