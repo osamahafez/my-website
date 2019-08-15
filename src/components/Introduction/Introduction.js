@@ -1,5 +1,6 @@
 import React from 'react';
 import './Introduction.css';
+import { HashLink as Link } from 'react-router-hash-link';
 import profileImg from '../../images/osama_pic.png';
 import Navbar from '../layout/Navbar/Navbar';
 import SocialLinks from '../SocialLinks/SocialLinks';
@@ -15,13 +16,13 @@ const Introduction = (props) => {
                         <h1 className="display-2 text-light">Hello, I'm Osama</h1>
                         <h1 className="display-4 text-light">I'm a full stack developer</h1>
                         <SocialLinks color='text-info' mb='mb-5' mt='mt-5' />
-                        <button className='btn btn-primary btn-lg'>View Projects</button>
+                        <Link smooth className="btn btn-primary btn-lg" to="/projects#projects">My Work</Link>
                     </div>
 
                 </div>
             </div>
         </div>
-    )
+        )     
 }
 
 export default Introduction;
