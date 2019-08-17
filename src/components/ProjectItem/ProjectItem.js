@@ -3,7 +3,7 @@ import './ProjectItem.css';
 
 const ProjectItem = (props) => {
     return (
-        <div className="card">
+        <div className="card project-card">
             <img src={props.image} className="card-img-top" alt={props.imageName} />
             <div className="card-body">
                 <h5 className="card-title">{props.title}</h5>
