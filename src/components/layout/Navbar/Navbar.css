@@ -1,3 +1,13 @@
 .nav-link {
     font-size: 18px;
 }
+
+.brand-name {
+    cursor: default;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+.initials {
+    color: #6C5CE7
+}

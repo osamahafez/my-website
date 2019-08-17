@@ -6,7 +6,9 @@ const Navbar = (props) => {
     return (
         <nav className="navbar navbar-expand-md">
             
-            <span className="navbar-brand text-light" style={{cursor:'default'}}>Osama Hafez</span>            
+            <span className="navbar-brand text-light brand-name">
+                <span className='initials'>O</span>sama <span className='initials'>H</span>afez
+            </span>            
             
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarElements" aria-controls="navbarElements" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"><i className="fas fa-bars fa-lg fa-2x text-light"></i></span>
