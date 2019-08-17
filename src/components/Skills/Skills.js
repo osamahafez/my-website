@@ -1,33 +1,175 @@
 import React from 'react';
 import './Skills.css';
 import SkillItem from '../SkillItem/SkillItem';
+import { Spring } from 'react-spring/renderprops';
+import VisibilitySensor from 'react-visibility-sensor';
 
-const Skills = () => {
+const Skills = (props) => {
     return (
         <div id='skills' className='skills container-fluid px-5 py-4'>
             <h1 className="text-primary text-center mb-3">Skills</h1>
             <div className="row justify-content-around">
                 <div className="col-md-5">
-                    <SkillItem skill='html' value='95' />
-                    <SkillItem skill='css' value='90' />
-                    <SkillItem skill='javascript' value='90' />
-                    <SkillItem skill='jquery' value='80' />
-                    <SkillItem skill='bootstrap' value='90' />
-                    <SkillItem skill='php' value='75' />
-                    <SkillItem skill='laravel' value='80' />
-                    <SkillItem skill='ajax' value='80' />
-                    <SkillItem skill='flexbox' value='60' />
+                
+                    <VisibilitySensor partialVisibility>
+                        {({isVisible}) =>
+                            <div>
+                                <Spring from={{number:0}} to={{number: isVisible ? 95 : 0}} config={{duration:300}}>
+                                    {props=> (
+                                        <div style={props}>
+                                            <SkillItem skill='html' value={props.number.toFixed()} />
+                                        </div>
+                                    )}
+                                </Spring>
+
+                                <Spring from={{number:0}} to={{number: isVisible ? 90 : 0}} config={{duration:300}}>
+                                    {props=> (
+                                        <div style={props}>
+                                            <SkillItem skill='css' value={props.number.toFixed()} />
+                                        </div>
+                                    )}
+                                </Spring>
+
+                                <Spring from={{number:0}} to={{number: isVisible ? 90 : 0}} config={{duration:300}}>
+                                    {props=> (
+                                        <div style={props}>
+                                            <SkillItem skill='javascrip' value={props.number.toFixed()} />
+                                        </div>
+                                    )}
+                                </Spring>
+
+                                <Spring from={{number:0}} to={{number: isVisible ? 80 : 0}} config={{duration:300}}>
+                                    {props=> (
+                                        <div style={props}>
+                                            <SkillItem skill='jquery' value={props.number.toFixed()} />
+                                        </div>
+                                    )}
+                                </Spring>
+
+                                <Spring from={{number:0}} to={{number: isVisible ? 90 : 0}} config={{duration:300}}>
+                                    {props=> (
+                                        <div style={props}>
+                                            <SkillItem skill='bootstrap' value={props.number.toFixed()} />
+                                        </div>
+                                    )}
+                                </Spring>
+
+                                <Spring from={{number:0}} to={{number: isVisible ? 75 : 0}} config={{duration:300}}>
+                                    {props=> (
+                                        <div style={props}>
+                                            <SkillItem skill='php' value={props.number.toFixed()} />
+                                        </div>
+                                    )}
+                                </Spring>
+
+                                <Spring from={{number:0}} to={{number: isVisible ? 80 : 0}} config={{duration:300}}>
+                                    {props=> (
+                                        <div style={props}>
+                                            <SkillItem skill='laravel' value={props.number.toFixed()} />
+                                        </div>
+                                    )}
+                                </Spring>
+
+                                <Spring from={{number:0}} to={{number: isVisible ? 80 : 0}} config={{duration:300}}>
+                                    {props=> (
+                                        <div style={props}>
+                                            <SkillItem skill='ajax' value={props.number.toFixed()} />
+                                        </div>
+                                    )}
+                                </Spring>
+
+                                <Spring from={{number:0}} to={{number: isVisible ? 60 : 0}} config={{duration:300}}>
+                                    {props=> (
+                                        <div style={props}>
+                                            <SkillItem skill='flexbox' value={props.number.toFixed()} />
+                                        </div>
+                                    )}
+                                </Spring>
+                            </div>
+                        }
+                    </VisibilitySensor>
+
                 </div>
                 <div className="col-md-5">
-                    <SkillItem skill='mysql' value='80' />
-                    <SkillItem skill='mongodb' value='80' />
-                    <SkillItem skill='nodejs' value='85' />
-                    <SkillItem skill='react' value='90' />
-                    <SkillItem skill='react-native' value='80' />
-                    <SkillItem skill='git' value='70' />
-                    <SkillItem skill='c++' value='80' />
-                    <SkillItem skill='java' value='55' />
-                    <SkillItem skill='python' value='70' />
+
+                    <VisibilitySensor partialVisibility>
+                        {({isVisible}) =>
+                            <div>
+                                <Spring from={{number:0}} to={{number: isVisible ? 80 : 0}} config={{duration:300}}>
+                                    {props=> (
+                                        <div style={props}>
+                                            <SkillItem skill='mysql' value={props.number.toFixed()} />
+                                        </div>
+                                    )}
+                                </Spring>
+
+                                <Spring from={{number:0}} to={{number: isVisible ? 80 : 0}} config={{duration:300}}>
+                                    {props=> (
+                                        <div style={props}>
+                                            <SkillItem skill='mongodb' value={props.number.toFixed()} />
+                                        </div>
+                                    )}
+                                </Spring>
+
+                                <Spring from={{number:0}} to={{number: isVisible ? 85 : 0}} config={{duration:300}}>
+                                    {props=> (
+                                        <div style={props}>
+                                            <SkillItem skill='nodejs' value={props.number.toFixed()} />
+                                        </div>
+                                    )}
+                                </Spring>
+
+                                <Spring from={{number:0}} to={{number: isVisible ? 90 : 0}} config={{duration:300}}>
+                                    {props=> (
+                                        <div style={props}>
+                                            <SkillItem skill='react' value={props.number.toFixed()} />
+                                        </div>
+                                    )}
+                                </Spring>
+
+                                <Spring from={{number:0}} to={{number: isVisible ? 80 : 0}} config={{duration:300}}>
+                                    {props=> (
+                                        <div style={props}>
+                                            <SkillItem skill='react-native' value={props.number.toFixed()} />
+                                        </div>
+                                    )}
+                                </Spring>
+
+                                <Spring from={{number:0}} to={{number: isVisible ? 70 : 0}} config={{duration:300}}>
+                                    {props=> (
+                                        <div style={props}>
+                                            <SkillItem skill='git' value={props.number.toFixed()} />
+                                        </div>
+                                    )}
+                                </Spring>
+
+                                <Spring from={{number:0}} to={{number: isVisible ? 80 : 0}} config={{duration:300}}>
+                                    {props=> (
+                                        <div style={props}>
+                                            <SkillItem skill='c++' value={props.number.toFixed()} />
+                                        </div>
+                                    )}
+                                </Spring>
+
+                                <Spring from={{number:0}} to={{number: isVisible ? 55 : 0}} config={{duration:300}}>
+                                    {props=> (
+                                        <div style={props}>
+                                            <SkillItem skill='java' value={props.number.toFixed()} />
+                                        </div>
+                                    )}
+                                </Spring>
+
+                                <Spring from={{number:0}} to={{number: isVisible ? 70 : 0}} config={{duration:300}}>
+                                    {props=> (
+                                        <div style={props}>
+                                            <SkillItem skill='python' value={props.number.toFixed()} />
+                                        </div>
+                                    )}
+                                </Spring>
+                            </div>
+                        }
+                    </VisibilitySensor>
+
                 </div>
             </div>
         </div>
