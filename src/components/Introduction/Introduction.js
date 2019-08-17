@@ -17,8 +17,8 @@ const Introduction = (props) => {
                             {/* <img src={profileImg} alt="profile_pic" className='profile-img rounded-circle mx-auto d-block' /> */}
                             <h1 className="display-2 text-light" style={{paddingTop:'30px'}}>Hello, I'm Osama.</h1>
                             <h1 className="display-4 text-light">A full stack developer</h1>
-                            <SocialLinks color='text-info' mb='mb-5' mt='mt-5' />
-                            <Link smooth className="btn btn-primary btn-lg work-btn" to="/projects#projects">My Work <i className="fas fa-arrow-alt-circle-down"></i></Link>
+                            <SocialLinks color='text-light' mb='mb-5' mt='mt-5' />
+                            <Link smooth className="btn btn-danger btn-lg work-btn" to="/projects#projects">My Work <i className="fas fa-arrow-alt-circle-down"></i></Link>
                         </div>
 
                     </div>

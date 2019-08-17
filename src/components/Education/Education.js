@@ -1,14 +1,15 @@
 import React from 'react';
+import './Education.css';
 import School from '../../images/school.jpg';
 import Collage from '../../images/collage.jpg';
 
 const Education = () => {
     return (
-        <div id='education' className="container-fluid bg-light px-5 py-4">
-            <h1 className="text-info text-center mb-3">Education</h1>
+        <div id='education' className="education container-fluid px-5 py-4">
+            <h1 className="text-primary text-center mb-3">Education</h1>
             <div className="row align-items-center justify-content-center">
                 <div className="col-md-5">
-                    <img src={School} alt="school" className='rounded' style={{width: '100%', height: '280px', border:'2px solid purple'}} />
+                    <img src={School} alt="school" className='rounded edu-image' />
                 </div>
                 <div className="col-md-5">
                     <p className="lead">
@@ -22,15 +23,15 @@ const Education = () => {
 
                 <div className="col-md-5 mt-5">
                     <p className="lead">
-                        In september 2014 I joined faculty of engineering Ain Shams univeristy chose electrical 
+                        In september 2014 I joined faculty of engineering Ain Shams univeristy, chose electrical 
                         engineering as a major and computer engineering as a minor when I discoverd that programming 
-                        is my passion. In 2016 I started to notice web programming and I fell in love with it and 
-                        decided that this will be my career. In 2019 I graduated with a grade of good and excellecnt 
+                        is my passion. In 2016 I started to get into web programming and I fell in love with it and 
+                        decided that it will be my career. In 2019 I graduated with a grade of good and excellent 
                         for the graduation project which was a web based project.
                     </p>
                 </div>
                 <div className="col-md-5 mt-5">
-                    <img src={Collage} alt="collage" className='rounded' style={{width: '100%', height: '280px', border:'2px solid purple'}} />
+                    <img src={Collage} alt="collage" className='rounded edu-image' />
                 </div>
             </div>
         </div>

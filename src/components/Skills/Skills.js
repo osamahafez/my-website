@@ -5,7 +5,7 @@ import SkillItem from '../SkillItem/SkillItem';
 const Skills = () => {
     return (
         <div id='skills' className='skills container-fluid px-5 py-4'>
-            <h1 className="text-info text-center mb-3">Skills</h1>
+            <h1 className="text-primary text-center mb-3">Skills</h1>
             <div className="row justify-content-around">
                 <div className="col-md-5">
                     <SkillItem skill='html' value='95' />

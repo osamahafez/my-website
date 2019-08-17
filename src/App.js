@@ -1,4 +1,5 @@
 import React from 'react';
+import './bootstrapTheme.css';
 import './App.css';
 import Introduction from './components/Introduction/Introduction';
 import Education from './components/Education/Education';

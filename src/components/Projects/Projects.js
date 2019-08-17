@@ -11,7 +11,7 @@ import todolist from '../../images/todolist.png';
 const Projects = (props) => {
     return (
         <div id='projects' className='projects container-fluid px-5 py-3'>
-            <h1 className="text-info text-center mb-3">Projects</h1>
+                <h1 className="text-primary text-center mb-3">Projects</h1>
 
                 <div className="card-deck mb-4">
                     <ProjectItem image={social_network} imageName='social_network' title='Developer Network' url='https://devnetwork-2019.herokuapp.com/'>
@@ -30,7 +30,7 @@ const Projects = (props) => {
                     </ProjectItem> 
                 </div>
 
-                <div className="card-deck">
+                <div className="card-deck mb-2">
                     <ProjectItem image={givantk} imageName='givantk' title='Crowdsourcing Mobile App' url='https://play.google.com/store/apps/details?id=com.team.givantk'>
                         A crowdsourcing mobile app that allows users to provide everyday services for one 
                         other and get rewarding points for helping a service asker. 

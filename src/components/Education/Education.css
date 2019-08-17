@@ -1,0 +1,10 @@
+.edu-image {
+    width: 100%;
+    height: 250px;
+    border: 2px solid #6C5CE7;
+}
+
+.education {
+    background: url('../../images/hexagon.jpg');
+    background-repeat: no-repeat;
+}

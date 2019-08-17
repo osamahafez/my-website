@@ -7,7 +7,7 @@ import ACM from '../../images/ACM.jpg'
 const Activites = () => {
     return (
         <div id='activites' className='activites container-fluid px-5 py-4'>
-            <h1 className="text-info text-center mb-3">Extracurricular Activities</h1>
+            <h1 className="text-primary text-center mb-3">Extracurricular Activities</h1>
             <div id="activitesCarousel" className="carousel slide m-auto activity-slide" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">

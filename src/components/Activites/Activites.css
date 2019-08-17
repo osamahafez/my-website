@@ -1,5 +1,8 @@
 .activites {
-    border-top: 2px dashed black;
+    border-top: 1px dashed #6C5CE7;
+    background: url('../../images/hexagon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .activity-slide {
