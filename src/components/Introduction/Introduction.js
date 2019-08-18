@@ -32,7 +32,7 @@ const Introduction = (props) => {
                                         >
                                             {props => (
                                                 <div style={props}>
-                                                    <Link smooth className="btn btn-danger btn-lg work-btn" to="/projects#projects">My Work <i className="fas fa-arrow-alt-circle-down"></i></Link>
+                                                    <Link smooth className="btn btn-danger btn-lg work-btn" to="/projects#projects">View My Work <i className="fas fa-arrow-alt-circle-down"></i></Link>
                                                 </div>
                                             )}
                                         </Spring>
