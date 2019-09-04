@@ -17,7 +17,7 @@ const Skills = (props) => {
                                 <Spring from={{number:0}} to={{number: isVisible ? 95 : 0}} config={{duration:300}}>
                                     {props=> (
                                         <div style={props}>
-                                            <SkillItem skill='html' value={props.number.toFixed()} />
+                                            <SkillItem skill='HTML' value={props.number.toFixed()} />
                                         </div>
                                     )}
                                 </Spring>
@@ -25,7 +25,7 @@ const Skills = (props) => {
                                 <Spring from={{number:0}} to={{number: isVisible ? 90 : 0}} config={{duration:300}}>
                                     {props=> (
                                         <div style={props}>
-                                            <SkillItem skill='css' value={props.number.toFixed()} />
+                                            <SkillItem skill='CSS' value={props.number.toFixed()} />
                                         </div>
                                     )}
                                 </Spring>
@@ -33,7 +33,7 @@ const Skills = (props) => {
                                 <Spring from={{number:0}} to={{number: isVisible ? 90 : 0}} config={{duration:300}}>
                                     {props=> (
                                         <div style={props}>
-                                            <SkillItem skill='javascrip' value={props.number.toFixed()} />
+                                            <SkillItem skill='Javascript' value={props.number.toFixed()} />
                                         </div>
                                     )}
                                 </Spring>
@@ -41,7 +41,7 @@ const Skills = (props) => {
                                 <Spring from={{number:0}} to={{number: isVisible ? 80 : 0}} config={{duration:300}}>
                                     {props=> (
                                         <div style={props}>
-                                            <SkillItem skill='jquery' value={props.number.toFixed()} />
+                                            <SkillItem skill='jQuery' value={props.number.toFixed()} />
                                         </div>
                                     )}
                                 </Spring>
@@ -49,7 +49,7 @@ const Skills = (props) => {
                                 <Spring from={{number:0}} to={{number: isVisible ? 90 : 0}} config={{duration:300}}>
                                     {props=> (
                                         <div style={props}>
-                                            <SkillItem skill='bootstrap' value={props.number.toFixed()} />
+                                            <SkillItem skill='Bootstrap' value={props.number.toFixed()} />
                                         </div>
                                     )}
                                 </Spring>
@@ -57,7 +57,7 @@ const Skills = (props) => {
                                 <Spring from={{number:0}} to={{number: isVisible ? 75 : 0}} config={{duration:300}}>
                                     {props=> (
                                         <div style={props}>
-                                            <SkillItem skill='php' value={props.number.toFixed()} />
+                                            <SkillItem skill='PHP' value={props.number.toFixed()} />
                                         </div>
                                     )}
                                 </Spring>
@@ -65,7 +65,7 @@ const Skills = (props) => {
                                 <Spring from={{number:0}} to={{number: isVisible ? 80 : 0}} config={{duration:300}}>
                                     {props=> (
                                         <div style={props}>
-                                            <SkillItem skill='laravel' value={props.number.toFixed()} />
+                                            <SkillItem skill='Laravel' value={props.number.toFixed()} />
                                         </div>
                                     )}
                                 </Spring>
@@ -73,7 +73,7 @@ const Skills = (props) => {
                                 <Spring from={{number:0}} to={{number: isVisible ? 80 : 0}} config={{duration:300}}>
                                     {props=> (
                                         <div style={props}>
-                                            <SkillItem skill='ajax' value={props.number.toFixed()} />
+                                            <SkillItem skill='Ajax' value={props.number.toFixed()} />
                                         </div>
                                     )}
                                 </Spring>
@@ -81,7 +81,7 @@ const Skills = (props) => {
                                 <Spring from={{number:0}} to={{number: isVisible ? 60 : 0}} config={{duration:300}}>
                                     {props=> (
                                         <div style={props}>
-                                            <SkillItem skill='flexbox' value={props.number.toFixed()} />
+                                            <SkillItem skill='Flexbox' value={props.number.toFixed()} />
                                         </div>
                                     )}
                                 </Spring>
@@ -98,7 +98,7 @@ const Skills = (props) => {
                                 <Spring from={{number:0}} to={{number: isVisible ? 80 : 0}} config={{duration:300}}>
                                     {props=> (
                                         <div style={props}>
-                                            <SkillItem skill='mysql' value={props.number.toFixed()} />
+                                            <SkillItem skill='MySQL' value={props.number.toFixed()} />
                                         </div>
                                     )}
                                 </Spring>
@@ -106,7 +106,7 @@ const Skills = (props) => {
                                 <Spring from={{number:0}} to={{number: isVisible ? 80 : 0}} config={{duration:300}}>
                                     {props=> (
                                         <div style={props}>
-                                            <SkillItem skill='mongodb' value={props.number.toFixed()} />
+                                            <SkillItem skill='MongoDB' value={props.number.toFixed()} />
                                         </div>
                                     )}
                                 </Spring>
@@ -114,7 +114,7 @@ const Skills = (props) => {
                                 <Spring from={{number:0}} to={{number: isVisible ? 85 : 0}} config={{duration:300}}>
                                     {props=> (
                                         <div style={props}>
-                                            <SkillItem skill='nodejs' value={props.number.toFixed()} />
+                                            <SkillItem skill='NodeJs' value={props.number.toFixed()} />
                                         </div>
                                     )}
                                 </Spring>
@@ -122,7 +122,7 @@ const Skills = (props) => {
                                 <Spring from={{number:0}} to={{number: isVisible ? 90 : 0}} config={{duration:300}}>
                                     {props=> (
                                         <div style={props}>
-                                            <SkillItem skill='react' value={props.number.toFixed()} />
+                                            <SkillItem skill='ReactJs' value={props.number.toFixed()} />
                                         </div>
                                     )}
                                 </Spring>
@@ -130,7 +130,7 @@ const Skills = (props) => {
                                 <Spring from={{number:0}} to={{number: isVisible ? 80 : 0}} config={{duration:300}}>
                                     {props=> (
                                         <div style={props}>
-                                            <SkillItem skill='react-native' value={props.number.toFixed()} />
+                                            <SkillItem skill='React-Native' value={props.number.toFixed()} />
                                         </div>
                                     )}
                                 </Spring>
@@ -138,7 +138,7 @@ const Skills = (props) => {
                                 <Spring from={{number:0}} to={{number: isVisible ? 70 : 0}} config={{duration:300}}>
                                     {props=> (
                                         <div style={props}>
-                                            <SkillItem skill='git' value={props.number.toFixed()} />
+                                            <SkillItem skill='Git' value={props.number.toFixed()} />
                                         </div>
                                     )}
                                 </Spring>
@@ -146,7 +146,7 @@ const Skills = (props) => {
                                 <Spring from={{number:0}} to={{number: isVisible ? 80 : 0}} config={{duration:300}}>
                                     {props=> (
                                         <div style={props}>
-                                            <SkillItem skill='c++' value={props.number.toFixed()} />
+                                            <SkillItem skill='C++' value={props.number.toFixed()} />
                                         </div>
                                     )}
                                 </Spring>
@@ -154,7 +154,7 @@ const Skills = (props) => {
                                 <Spring from={{number:0}} to={{number: isVisible ? 55 : 0}} config={{duration:300}}>
                                     {props=> (
                                         <div style={props}>
-                                            <SkillItem skill='java' value={props.number.toFixed()} />
+                                            <SkillItem skill='Java' value={props.number.toFixed()} />
                                         </div>
                                     )}
                                 </Spring>
@@ -162,7 +162,7 @@ const Skills = (props) => {
                                 <Spring from={{number:0}} to={{number: isVisible ? 70 : 0}} config={{duration:300}}>
                                     {props=> (
                                         <div style={props}>
-                                            <SkillItem skill='python' value={props.number.toFixed()} />
+                                            <SkillItem skill='Python' value={props.number.toFixed()} />
                                         </div>
                                     )}
                                 </Spring>

@@ -6,7 +6,7 @@ import social_network from '../../images/social_network.png';
 import hospital from '../../images/hospital.png';
 import fanny_pack from '../../images/fanny_pack.png';
 import givantk from '../../images/givantk.png';
-import todolist from '../../images/todolist.png';
+import School from '../../images/school-admin-panel.png';
 
 const Projects = (props) => {
     return (
@@ -36,15 +36,15 @@ const Projects = (props) => {
                         other and get rewarding points for helping a service asker. 
                     </ProjectItem>
                     
+                    <ProjectItem image={School} imageName='school-admin-panel' title='School Admin Panel' url='https://school-admin-panel.herokuapp.com/'>
+                        An admin panel where you add, update, view and delete students. 
+                        Login credentials are username:'osamahafez' and password:'123456'
+                    </ProjectItem>
+
                     <ProjectItem image={hospital} imageName='hospital' title='Local Hospital' url='https://github.com/osamahafez/local_hospital-php7'>
                         A local hospital website using raw php that holds records for all doctors, patients 
                         and allow users to make an appointment with a specific doctor.
                     </ProjectItem> 
-                    
-                    <ProjectItem image={todolist} imageName='todolist' title='To-Do List' url='https://github.com/osamahafez/to-do-list-nodejs-expressjs'>
-                        A very simple to-do list where you add items, check them upon completion or delete
-                        them completely.
-                    </ProjectItem>
                 </div>
         </div>
     )
