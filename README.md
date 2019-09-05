@@ -1,4 +1,4 @@
-# Osama's official Protfolio
+# Osama's Protfolio
 
 ### **Website:** [www.osamahafez.me](/https://www.osamahafez.me)
 
