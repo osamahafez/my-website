@@ -78,10 +78,10 @@ const Skills = (props) => {
                                     )}
                                 </Spring>
 
-                                <Spring from={{number:0}} to={{number: isVisible ? 60 : 0}} config={{duration:300}}>
+                                <Spring from={{number:0}} to={{number: isVisible ? 90 : 0}} config={{duration:300}}>
                                     {props=> (
                                         <div style={props}>
-                                            <SkillItem skill='Flexbox' value={props.number.toFixed()} />
+                                            <SkillItem skill='SASS' value={props.number.toFixed()} />
                                         </div>
                                     )}
                                 </Spring>

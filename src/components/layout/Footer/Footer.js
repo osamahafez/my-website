@@ -15,7 +15,7 @@ const Footer = (props) => {
             </div>
 
             <div className="text-light text-center pb-3">&copy; Copyright {new Date().getFullYear()}: 
-                <a className='text-primary' href="http://www.osamahafez.me"> www.osamahafez.me</a>
+                <a className='text-primary' href="https://www.osamahafez.me"> www.osamahafez.me</a>
             </div>
 
         </footer>

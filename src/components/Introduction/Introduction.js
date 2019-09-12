@@ -28,11 +28,12 @@ const Introduction = (props) => {
                                                 opacity: isVisible ? 1 : 0, 
                                                 transform: isVisible ? "translateY(0px)" : "translateY(-200px)"
                                             }} 
-                                            delay={300}
+                                            delay={700}
                                         >
                                             {props => (
                                                 <div style={props}>
-                                                    <Link smooth className="btn btn-danger btn-lg work-btn" to="/projects#projects">View My Work <i className="fas fa-arrow-alt-circle-down"></i></Link>
+                                                    {/* <Link smooth className="btn btn-danger btn-lg work-btn" to="/projects#projects">View My Work <i className="fas fa-arrow-alt-circle-down"></i></Link> */}
+                                                    <Link smooth className="button_2" to="/projects#projects">View My Work</Link>
                                                 </div>
                                             )}
                                         </Spring>
