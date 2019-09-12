@@ -38,7 +38,7 @@ const Projects = (props) => {
                     
                     <ProjectItem image={School} imageName='school-admin-panel' title='School Admin Panel' url='https://school-admin-panel.herokuapp.com/'>
                         An admin panel where you add, update, view and delete students. 
-                        Login credentials are username:'osamahafez' and password:'123456'
+                        Also with a search feature and an informative charts.
                     </ProjectItem>
 
                     <ProjectItem image={hospital} imageName='hospital' title='Local Hospital' url='https://github.com/osamahafez/local_hospital-php7'>
