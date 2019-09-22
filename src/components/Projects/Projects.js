@@ -4,7 +4,7 @@ import ProjectItem from '../ProjectItem/ProjectItem';
 import larapreango from '../../images/larapreango.png';
 import social_network from '../../images/social_network.png';
 import hospital from '../../images/hospital.png';
-import fanny_pack from '../../images/fanny_pack.png';
+import smartLink from '../../images/smart-link.png';
 import givantk from '../../images/givantk.png';
 import School from '../../images/school-admin-panel.png';
 
@@ -19,9 +19,9 @@ const Projects = (props) => {
                         create their portofolio and connect with one another.
                     </ProjectItem> 
 
-                    <ProjectItem image={fanny_pack} imageName='fanny_pack' title='React Utility Belt' url='https://react-fanny-pack.firebaseapp.com/'>
-                        A react app that provides various tools and widgets like Weather Forecasting, global 
-                        clocks, a calculator etc...
+                    <ProjectItem image={smartLink} imageName='smart-link' title='SmartLink Website' url='https://smart-link-281fb.firebaseapp.com/'>
+                        A react single page app for a software company and 
+                        designed with pure html and css and the mobile view is still in progress.
                     </ProjectItem> 
 
                     <ProjectItem image={larapreango} imageName='larapreango' title='Blog Website' url='https://github.com/osamahafez/Larapreango-blog-laravel5.7'>
