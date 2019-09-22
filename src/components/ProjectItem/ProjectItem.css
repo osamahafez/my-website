@@ -7,3 +7,11 @@
     -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
     box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
 }
+
+.btn-secondary:hover {
+    background-color: #6c5ce7;
+}
+
+.btn-secondary:focus {
+    box-shadow: none;
+}

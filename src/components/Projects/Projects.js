@@ -24,16 +24,16 @@ const Projects = (props) => {
                         designed with pure html and css and the mobile view is still in progress.
                     </ProjectItem> 
 
-                    <ProjectItem image={larapreango} imageName='larapreango' title='Blog Website' url='https://github.com/osamahafez/Larapreango-blog-laravel5.7'>
-                        A technical blog website using laravel where users can write a blog and comment 
-                        and like other blogs. 
-                    </ProjectItem> 
-                </div>
-
-                <div className="card-deck mb-2">
                     <ProjectItem image={givantk} imageName='givantk' title='Crowdsourcing Mobile App' url='https://play.google.com/store/apps/details?id=com.team.givantk'>
                         A crowdsourcing mobile app that allows users to provide everyday services for one 
                         other and get rewarding points for helping a service asker. 
+                    </ProjectItem>
+                </div>
+
+                <div className="card-deck mb-2">
+                    <ProjectItem image={larapreango} imageName='larapreango' title='Blog Website' url='https://github.com/osamahafez/Larapreango-blog-laravel5.7'>
+                        A technical blog website using laravel where users can write a blog and comment 
+                        and like other blogs. 
                     </ProjectItem>
                     
                     <ProjectItem image={School} imageName='school-admin-panel' title='School Admin Panel' url='https://school-admin-panel.herokuapp.com/'>
