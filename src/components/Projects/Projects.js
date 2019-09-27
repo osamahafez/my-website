@@ -31,7 +31,7 @@ const Projects = (props) => {
                 </div>
 
                 <div className="card-deck mb-2">
-                    <ProjectItem image={larapreango} imageName='larapreango' title='Blog Website' url='https://github.com/osamahafez/Larapreango-blog-laravel5.7'>
+                    <ProjectItem image={larapreango} imageName='larapreango' title='Blog Website' url='https://larapreango.000webhostapp.com'>
                         A technical blog website using laravel where users can write a blog and comment 
                         and like other blogs. 
                     </ProjectItem>
