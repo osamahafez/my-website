@@ -1,24 +1,3 @@
 .experience {
     border-top: 1px dashed #6C5CE7;
 }
-
-.achievements {
-    margin-bottom: -1px;
-}
-
-ul.ulAchievements {
-    list-style: none;
-}
-  
-ul.ulAchievements li::before {
-content: "\2022";
-color: #6C5CE7;
-font-weight: bold;
-display: inline-block; 
-width: 1em;
-margin-left: -1em;
-}
-
-.laptop-exp {
-    width: 100%;
-}
