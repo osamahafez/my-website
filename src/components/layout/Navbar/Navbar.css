@@ -11,3 +11,16 @@
 .initials {
     color: #6C5CE7
 }
+
+#nav {
+    transition: 0.5s ease-in-out all;
+}
+
+.scrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.8);
+    z-index: 50;
+}

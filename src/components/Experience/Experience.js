@@ -13,7 +13,7 @@ const Experience = () => {
                     
                     <ExperienceItem
                         jobTitle='Full Stack Developer'
-                        company='Saudi Arabia'
+                        company='Saudi Arabia (Remotely)'
                         date='Oct 2019 - Present'
                         achievements={
                             <Aux>
@@ -40,7 +40,7 @@ const Experience = () => {
                             </Aux>
                         }
                     />
-                    
+
                 </div>
             </div>
         </div>
