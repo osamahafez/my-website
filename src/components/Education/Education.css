@@ -5,6 +5,6 @@
 }
 
 .education {
-    background: url('../../images/hexagon.jpg');
-    background-repeat: no-repeat;
+    background-image: url('../../images/Sun-Tornado.svg');
+    background-size: cover;
 }
