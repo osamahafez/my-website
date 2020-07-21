@@ -9,7 +9,7 @@ const Education = () => {
             <h1 className="text-primary text-center mb-3">Education</h1>
             <div className="row align-items-center justify-content-center">
                 <div className="col-md-5">
-                    <img src={School} alt="school" className='rounded edu-image' />
+                    <img src={School} alt="school" className='edu-image' />
                 </div>
                 <div className="col-md-5">
                     <p className="lead">
@@ -31,7 +31,7 @@ const Education = () => {
                     </p>
                 </div>
                 <div className="col-md-5 mt-5">
-                    <img src={Collage} alt="collage" className='rounded edu-image' />
+                    <img src={Collage} alt="collage" className='edu-image' />
                 </div>
             </div>
         </div>

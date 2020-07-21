@@ -13,9 +13,9 @@ const ExperienceItem = (props) => {
                 <p className='achievements'>Achievements:</p>
                 <ul className='ulAchievements'>{ props.achievements }</ul>
             </div>
-            <div className='col-md-4'>
+            {/* <div className='col-md-4'>
                 <img src={LaptopExp} alt='laptop' className='laptop-exp' />
-            </div>
+            </div> */}
         </Aux>
     );
 };
