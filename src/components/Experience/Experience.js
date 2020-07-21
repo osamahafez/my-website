@@ -1,5 +1,6 @@
 import React from 'react';
 import './Experience.css';
+import LaptopExp from '../../images/laptop-experience.png';
 import Aux from '../../hoc/_Aux';
 import ExperienceItem from '../ExperienceItem/ExperienceItem';
 
@@ -11,6 +12,10 @@ const Experience = () => {
                 <h1 className='text-primary text-center mb-3'>Experience</h1>
                 <div className='row align-items-center'>
                     
+                <div className=''>
+                        <img src={LaptopExp} alt='laptop' className='laptop-exp' />
+                </div>
+
                     <ExperienceItem
                         jobTitle='Full Stack Developer'
                         company='Saudi Arabia (Remotely)'

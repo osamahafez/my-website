@@ -39,16 +39,16 @@ class Navbar extends React.Component {
                     <div className="collapse navbar-collapse" id="navbarElements">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
-                                <NavLink smooth scroll={this.scrollWidthOffset} className="nav-link text-light" to="#education">Education</NavLink>
+                                <NavLink smooth scroll={this.scrollWidthOffset} className="nav-link text-light" to="#experience">Experience</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink smooth scroll={this.scrollWidthOffset} className="nav-link text-light" to="#experience">Experience</NavLink>
+                                <NavLink smooth scroll={this.scrollWidthOffset} className="nav-link text-light" to="#skills">Skills</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink smooth scroll={this.scrollWidthOffset} className="nav-link text-light" to="#projects">Projects</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink smooth scroll={this.scrollWidthOffset} className="nav-link text-light" to="#skills">Skills</NavLink>
+                                <NavLink smooth scroll={this.scrollWidthOffset} className="nav-link text-light" to="#education">Education</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink smooth scroll={this.scrollWidthOffset} className="nav-link text-light" to="#activites">Extracurricular Activities</NavLink>

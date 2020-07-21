@@ -1,4 +1,12 @@
 .experience {
+    position: relative;
     background-image: url('../../images/Subtle-Prism.svg');
     background-size: cover;
+}
+
+.laptop-exp {
+    position: absolute;
+    width: 400px;
+    top: 20px;
+    right: 40px;
 }

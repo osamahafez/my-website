@@ -6,8 +6,8 @@ import VisibilitySensor from 'react-visibility-sensor';
 
 const Skills = (props) => {
     return (
-        <div id='skills' className='skills container-fluid px-5 py-4'>
-            <h1 className="text-primary text-center mb-3">Skills</h1>
+        <div id='skills' className='skills container-fluid px-5 pb-5'>
+            <h1 className="text-primary text-center mb-3 pt-3">Skills</h1>
             <div className="row justify-content-around">
                 <div className="col-md-5">
                 
