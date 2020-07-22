@@ -58,3 +58,8 @@
     color: #fff;
     text-decoration: none;
   }
+
+  .skill-ticker {
+    width: 700px;
+    margin: auto;
+  }

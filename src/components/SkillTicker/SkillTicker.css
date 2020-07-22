@@ -1,0 +1,10 @@
+.skill-ticker-container {
+    overflow: hidden;
+    white-space: nowrap;
+    height: 70px;
+}
+
+.skill-ticker-container img{
+    margin-left: 20px;
+    width: 50px;
+}
