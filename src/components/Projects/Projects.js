@@ -11,7 +11,7 @@ import School from '../../images/school-admin-panel.png';
 const Projects = (props) => {
     return (
         <div id='projects' className='projects container-fluid px-5 py-3'>
-                <h1 className="text-primary text-center mb-3">Projects</h1>
+                <h1 className="text-primary text-center mb-3">Personal Projects</h1>
 
                 <div className="card-deck mb-4">
                     <ProjectItem image={social_network} imageName='social_network' title='Developer Network' url='https://devnetwork-2019.herokuapp.com/'>
