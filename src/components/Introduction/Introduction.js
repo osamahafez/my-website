@@ -11,7 +11,7 @@ const Introduction = (props) => {
 
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-md-12 text-center mt-3 mb-5 intro-content">
+                        <div id="intro-content" className="col-md-12 text-center mt-3 mb-5">
                             <Navbar />
                             <h1 className="display-2 text-light" style={{paddingTop:'30px'}}>Hello, I'm Osama.</h1>
                             <h1 className="display-4 text-light">A full stack developer</h1>

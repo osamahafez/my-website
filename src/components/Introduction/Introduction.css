@@ -35,8 +35,12 @@
     border-radius: 0;
 }
 
-.intro-content {
+#intro-content {
     padding-bottom: 140px;
+}
+
+.keep {
+  padding-top: 56px;
 }
 
 .button_2 {

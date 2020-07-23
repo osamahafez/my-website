@@ -8,8 +8,15 @@ class Navbar extends React.Component {
         window.addEventListener('scroll', () => {
             const isScrolled = window.scrollY > 80;
             const nav = document.getElementById('nav');
-            if(isScrolled) nav.classList.add('scrolled');
-            else nav.classList.remove('scrolled');
+            const intro = document.getElementById('intro-content');
+            if(isScrolled) {
+                nav.classList.add('scrolled');
+                intro.classList.add('keep');
+            }
+            else {
+                nav.classList.remove('scrolled');
+                intro.classList.remove('keep');
+            }
         })
     }
 
