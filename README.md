@@ -1,5 +1,5 @@
 # Osama's Protfolio
 
-### **Website:** [www.osamahafez.me](/https://www.osamahafez.me)
+### **Website:** [osamahafez.com](/https://osamahafez.com)
 
 This project is created by ReactJs.
