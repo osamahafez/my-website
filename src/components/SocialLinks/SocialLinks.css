@@ -2,3 +2,7 @@
     color: #cbd3da;
     cursor: pointer;
 }
+
+.social-links a, .social-links span {
+    margin: 0 10px;
+}

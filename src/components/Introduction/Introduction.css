@@ -35,8 +35,12 @@
     border-radius: 0;
 }
 
-.intro-content {
+#intro-content {
     padding-bottom: 140px;
+}
+
+.keep {
+  padding-top: 56px;
 }
 
 .button_2 {
@@ -57,4 +61,9 @@
     background-color: rgb(95,39,205);
     color: #fff;
     text-decoration: none;
+  }
+
+  .skill-ticker {
+    width: 700px;
+    margin: auto;
   }

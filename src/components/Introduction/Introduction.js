@@ -1,11 +1,8 @@
 import React from 'react';
 import './Introduction.css';
-import { HashLink as Link } from 'react-router-hash-link';
 import Navbar from '../layout/Navbar/Navbar';
 import SocialLinks from '../SocialLinks/SocialLinks';
-import { Spring } from 'react-spring/renderprops';
-import VisibilitySensor from 'react-visibility-sensor';
-
+import SkillTicker from '../SkillTicker/SkillTicker';
 
 const Introduction = (props) => {
     return (
@@ -14,37 +11,13 @@ const Introduction = (props) => {
 
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-md-12 text-center mt-3 mb-5 intro-content">
+                        <div id="intro-content" className="col-md-12 text-center mt-3 mb-5">
                             <Navbar />
                             <h1 className="display-2 text-light" style={{paddingTop:'30px'}}>Hello, I'm Osama.</h1>
                             <h1 className="display-4 text-light">A full stack developer</h1>
+                            <div className="skill-ticker mt-4"><SkillTicker /></div>
                             <SocialLinks color='text-light' mb='mb-5' mt='mt-5' />
-
-                                <VisibilitySensor partialVisibility>
-                                    {({isVisible}) => 
-                                        
-                                        <Spring  
-                                            to={{
-                                                opacity: isVisible ? 1 : 0, 
-                                                transform: isVisible ? "translateY(0px)" : "translateY(-200px)"
-                                            }} 
-                                            delay={700}
-                                        >
-                                            {props => (
-                                                <div style={props}>
-                                                    {/* <Link smooth className="btn btn-danger btn-lg work-btn" to="/projects#projects">View My Work <i className="fas fa-arrow-alt-circle-down"></i></Link> */}
-                                                    <Link smooth className="button_2" to="/projects#projects">View My Work</Link>
-                                                </div>
-                                            )}
-                                        </Spring>
-
-                                    }
-                                </VisibilitySensor>
-
-                               
-                           
                         </div>
-
                     </div>
                 </div>
             </div>

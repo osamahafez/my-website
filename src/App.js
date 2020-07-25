@@ -13,10 +13,10 @@ function App() {
     return (
         <div className='App'>
             <Introduction />
-            <Education />
             <Experience />
-            <Projects />
             <Skills />
+            <Projects />
+            <Education />
             <Activites />
             <Footer />
         </div>
