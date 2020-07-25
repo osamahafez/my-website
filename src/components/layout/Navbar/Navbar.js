@@ -1,10 +1,10 @@
-import React from 'react';
-import './Navbar.css';
+import React, { useEffect } from 'react';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
+import './Navbar.css';
 
-class Navbar extends React.Component {
+const Navbar = () => {
 
-    componentDidMount() {
+    useEffect(() => {
         window.addEventListener('scroll', () => {
             const isScrolled = window.scrollY > 80;
             const nav = document.getElementById('nav');
@@ -17,20 +17,17 @@ class Navbar extends React.Component {
                 nav.classList.remove('scrolled');
                 intro.classList.remove('keep');
             }
-        })
-    }
+        });
+        return () => {
+            window.removeEventListener('scroll', () => {});
+        }
+    }, [])
 
-    componentWillUnmount() {
-        window.removeEventListener('scroll', () => {});
-    }
-
-    scrollWidthOffset = (el) => {
+    const scrollWidthOffset = (el) => {
         const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
         const yOffset = -58; 
         window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
     }
-
-    render() {
 
         return (
             <nav id="nav" className="navbar navbar-expand-md">
@@ -46,26 +43,25 @@ class Navbar extends React.Component {
                     <div className="collapse navbar-collapse" id="navbarElements">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
-                                <NavLink smooth scroll={this.scrollWidthOffset} className="nav-link text-light" to="#experience">Experience</NavLink>
+                                <NavLink smooth scroll={scrollWidthOffset} className="nav-link text-light" to="#experience">Experience</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink smooth scroll={this.scrollWidthOffset} className="nav-link text-light" to="#skills">Skills</NavLink>
+                                <NavLink smooth scroll={scrollWidthOffset} className="nav-link text-light" to="#skills">Skills</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink smooth scroll={this.scrollWidthOffset} className="nav-link text-light" to="#projects">Projects</NavLink>
+                                <NavLink smooth scroll={scrollWidthOffset} className="nav-link text-light" to="#projects">Projects</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink smooth scroll={this.scrollWidthOffset} className="nav-link text-light" to="#education">Education</NavLink>
+                                <NavLink smooth scroll={scrollWidthOffset} className="nav-link text-light" to="#education">Education</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink smooth scroll={this.scrollWidthOffset} className="nav-link text-light" to="#activites">Extracurricular Activities</NavLink>
+                                <NavLink smooth scroll={scrollWidthOffset} className="nav-link text-light" to="#activites">Extracurricular Activities</NavLink>
                             </li>
                         </ul>
             
                     </div>
                 </nav>
         )
-    }
 }
 
 export default Navbar;
