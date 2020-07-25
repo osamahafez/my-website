@@ -7,3 +7,9 @@
 .education {
     background-color: #f2f2f2;
 }
+
+@media(max-width: 768px) {
+   .edu-image {
+       margin-bottom: 50px;
+   }
+}

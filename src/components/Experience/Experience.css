@@ -10,3 +10,9 @@
     top: 20px;
     right: 40px;
 }
+
+@media(max-width: 768px) {
+    .laptop-exp {
+        display: none;
+    }
+}
