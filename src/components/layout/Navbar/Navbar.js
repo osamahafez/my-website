@@ -32,9 +32,11 @@ const Navbar = () => {
         return (
             <nav id="nav" className="navbar navbar-expand-md">
                 
-                <span className="navbar-brand text-light brand-name">
-                    <span className='initials'>O</span>sama <span className='initials'>H</span>afez
-                </span>            
+                <NavLink smooth to="#introduction" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <span className="navbar-brand text-light brand-name">
+                        <span className='initials'>O</span>sama <span className='initials'>H</span>afez
+                    </span>            
+                </NavLink>
                 
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarElements" aria-controls="navbarElements" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"><i className="fas fa-bars fa-lg fa-2x text-light"></i></span>
