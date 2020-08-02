@@ -43,19 +43,19 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarElements">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
-                                <NavLink smooth scroll={scrollWidthOffset} className="nav-link text-light" to="#experience">Experience</NavLink>
+                                <NavLink smooth scroll={scrollWidthOffset} data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link text-light" to="#experience">Experience</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink smooth scroll={scrollWidthOffset} className="nav-link text-light" to="#skills">Skills</NavLink>
+                                <NavLink smooth scroll={scrollWidthOffset} data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link text-light" to="#skills">Skills</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink smooth scroll={scrollWidthOffset} className="nav-link text-light" to="#projects">Projects</NavLink>
+                                <NavLink smooth scroll={scrollWidthOffset} data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link text-light" to="#projects">Projects</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink smooth scroll={scrollWidthOffset} className="nav-link text-light" to="#education">Education</NavLink>
+                                <NavLink smooth scroll={scrollWidthOffset} data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link text-light" to="#education">Education</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink smooth scroll={scrollWidthOffset} className="nav-link text-light" to="#activites">Extracurricular Activities</NavLink>
+                                <NavLink smooth scroll={scrollWidthOffset} data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link text-light" to="#activites">Activities</NavLink>
                             </li>
                         </ul>
             
